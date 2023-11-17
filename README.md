@@ -8,3 +8,5 @@ Repositório de projetos em HTML e CSS feitos no site da DIO (Digital Innovation
   	- **wikipedia_moderno** - Recriando o Wikipedia com Layout Moderno - Layout moderno e simples do Wikipedia 
 2. **css_webdev** - Formação CSS Web Developer
    	- **primeira_landing_page** - Criando sua Primeira Landing Page com HTML e CSS
+   	- **clone_layout_youtube** - Clonando a Página do Youtube com CSS
+   	- **listagem_youtube** - Reproduzindo a Listagem do YouTube com Grid Layout no CSS

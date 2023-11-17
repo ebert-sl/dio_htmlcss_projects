@@ -1,0 +1,157 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: grid;
+    height: 100vh;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    grid-template-columns: 220px minmax(200px, 1fr);
+    grid-template-rows: 55px 800px;
+    grid-template-areas: 
+    "header header"
+    "nav main"
+    "nav main"
+    "nav main"
+    "nav main";
+}
+
+div {
+    display: flex;
+}
+
+header {
+    display: flex;
+    grid-area: header;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-logo {   
+    margin: 0 20px; 
+    align-items: center;
+    gap: 20px;
+}
+
+#menu {
+    width: 24px;
+    height: 24px;
+}
+
+#logo {
+    width: 90px;
+    height: 20px;
+}
+
+.busca {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+#botao-busca {
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    background: #CCCCCC;
+}
+
+#lupa {
+    width: 24px;
+    height: 24px;
+}
+
+.canal-pessoal {
+    align-items: center;
+    gap: 15px;
+    margin-right: 20px;
+}
+
+#criar-video {
+    width: 24px;
+    height: 24px;
+}
+
+#notificao {
+    width: 24px;
+    height: 24px;
+}
+
+#perfil-pessoal {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    grid-area: nav;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0 0 20px;
+}
+
+.sessao-nav {
+    align-items: center;
+    gap: 10px;
+}
+
+.icone-nav {
+    width: 24px;
+    height: 24px;
+}
+
+.texto-nav {
+    font-size: 14px;
+}
+
+#inicio {
+    font-weight: 700;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 240px);
+    justify-items: center;
+    padding-top: 20px;
+    grid-area: main;
+    gap: 20px;
+}
+
+.video {
+    width: 250px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.thumbnail {
+    width: 250px;
+}
+
+.dados-video {
+    gap: 10px;
+}
+
+.descricao {
+    flex-direction: column;
+}
+
+.canal-dio {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.titulo {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.views-pub {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #515151;
+}

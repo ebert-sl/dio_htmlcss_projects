@@ -11,3 +11,4 @@ Repositório de projetos em HTML e CSS feitos no site da DIO (Digital Innovation
    	- **clone_layout_youtube** - Clonando a Página do Youtube com CSS
    	- **listagem_youtube** - Reproduzindo a Listagem do YouTube com Grid Layout no CSS
    	- **layout_responsivo** - Construindo um Layout Responsivo Para o Site do Discord Com CSS
+   	- **hbomax** - Clonando o Site da HBO Max com Animações em HTML e CSS

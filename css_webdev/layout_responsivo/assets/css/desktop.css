@@ -52,7 +52,7 @@ header {
     justify-content: center;
     align-items: center;
     grid-area: header;
-    background-image: url(../images/header_background.png);
+    background-image: url("../images/header_background.png");
     background-size: cover;
     background-position: 60%;
     padding-bottom: 40px;

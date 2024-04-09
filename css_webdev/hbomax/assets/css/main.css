@@ -243,7 +243,7 @@ nav #links a:nth-of-type(2):hover {
   margin: calc(4rem - 2px) 0;
   background-position: top right;
   border: 2px solid var(--secondary-color);
-  scale: 1.05;
+  scale: 2;
 }
 
 @keyframes wiggle {
@@ -272,7 +272,7 @@ nav #links a:nth-of-type(2):hover {
 }
 
 #assinaturas {
-  background-image: url('../images/background-movies-series.png');
+  background-image: url("../images/background-movies-series.png");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Raleway', sans-serif;

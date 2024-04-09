@@ -132,7 +132,7 @@ main {
   display: flex;
   justify-content: center ;
   padding: 8rem 5rem 5rem;
-  background-image: url('../images/background-movies-series.png');
+  background-image: url("../images/background-movies-series.png");
 }
 
 main::before {

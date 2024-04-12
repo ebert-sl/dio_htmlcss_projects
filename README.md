@@ -1,6 +1,8 @@
 # Projetos da DIO (HTML/CSS)
 Repositório de projetos em HTML e CSS feitos no site da DIO (Digital Innovation One).
 
+Deploy: https://ebert-sl.github.io/dio_htmlcss_projects/
+
 ## Índice
 1. **html_webdev** - Formação HTML Web Developer 
 	- **primeiros_passos_html** - Primeiros Passos com HTML - Criar uma página web utilizando as tags aprendidas
